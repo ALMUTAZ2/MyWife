@@ -1,0 +1,265 @@
+  <!DOCTYPE html>
+  <html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رسالة حب إلى زوجتي الغالية</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap');
+      
+      body {
+        font-family: 'Tajawal', sans-serif;
+        background-color: #fff5f5;
+        margin: 0;
+        padding: 0;
+        color: #4a4a4a;
+        line-height: 1.8;
+        overflow-x: hidden;
+        position: relative;
+      }
+      
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .header {
+        text-align: center;
+        margin-bottom: 30px;
+        position: relative;
+      }
+      
+      .header:after {
+        content: "";
+        display: block;
+        width: 150px;
+        height: 3px;
+        background: linear-gradient(to right, #f8a5c2, #f78fb3);
+        margin: 15px auto;
+      }
+      
+      h1 {
+        color: #e84393;
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+      
+      .date {
+        font-style: italic;
+        color: #888;
+        margin-bottom: 20px;
+      }
+      
+      .image-container {
+        text-align: center;
+        margin: 30px 0;
+        position: relative;
+      }
+      
+      .image-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        border: 3px solid #f8a5c2;
+      }
+      
+      .image-container:before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        right: -10px;
+        bottom: -10px;
+        background: linear-gradient(45deg, #ffbaba, #ffc3a0, #ffdfba, #ffffba, #baffc9, #bae1ff, #c9baff);
+        background-size: 400% 400%;
+        z-index: -1;
+        border-radius: 15px;
+        opacity: 0.5;
+        animation: gradientBG 15s ease infinite;
+      }
+      
+      @keyframes gradientBG {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      
+      .letter {
+        padding: 20px;
+        background-color: #ffeef2;
+        border-radius: 10px;
+        position: relative;
+      }
+      
+      .letter p {
+        margin-bottom: 20px;
+        font-size: 1.1rem;
+      }
+      
+      .highlight {
+        color: #d63031;
+        font-weight: bold;
+      }
+      
+      .signature {
+        text-align: left;
+        margin-top: 40px;
+        font-style: italic;
+        font-weight: bold;
+        color: #e84393;
+      }
+      
+      .hearts {
+        position: absolute;
+        font-size: 1.5rem;
+        color: #ff6b81;
+        opacity: 0.3;
+      }
+      
+      .heart1 {
+        top: 10px;
+        right: 20px;
+      }
+      
+      .heart2 {
+        bottom: 10px;
+        left: 20px;
+      }
+      
+      .floating-hearts {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 100; /* Changed from -1 to 100 to appear above content */
+      }
+      
+      .floating-heart {
+        position: absolute;
+        color: #ff6b81;
+        opacity: 0.4; /* Increased opacity slightly */
+        animation: float 30s linear infinite;
+        text-shadow: 0 0 5px white; /* Added text shadow for better visibility */
+      }
+      
+      @keyframes float {
+        0% {
+          transform: translateY(100vh) translateX(0) rotate(0);
+        }
+        100% {
+          transform: translateY(-100px) translateX(100px) rotate(360deg);
+        }
+      }
+      
+      @media (max-width: 600px) {
+        .container {
+          padding: 15px;
+          margin: 15px;
+        }
+        
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="floating-hearts">
+      <!-- Hearts will be added by JavaScript -->
+    </div>
+    
+    <div class="container">
+      <div class="header">
+        <h1>خاطرة من القلب</h1>
+        <div class="date">٣ أبريل ٢٠٢٥</div>
+      </div>
+      
+      <div class="image-container">
+        <img src="https://l.top4top.io/p_337984i900.png" alt="صورة زوجتي الحبيبة" onerror="this.src='https://l.top4top.io/p_337984i900.png'">
+      </div>
+      
+      <div class="letter">
+        <div class="hearts heart1">❤️</div>
+        <div class="hearts heart2">❤️</div>
+        
+        <h2>زوجتي حبيبتي</h2>
+        
+        <p>لعلي لم أكتب لك منذ فترة طويلة<br>
+        لا أدري لماذا، ربما قد يكون لم أنفرد لوحدي</p>
+        
+        <p>زوجتي سأقول لك ما بداخلي<br>
+        أنا <span class="highlight">فخور بك</span>... نعم فخور بك لأنك سباقة للخير وسندي عندما أتعب. نعم آخر فترة حينما دخلت للمشفى وجدت في أعينك ألم شديد ولكنك تكابرين حتى تكوني قوية أمامي في ذلك الموقف.
+        حينها أقلق عليك كثيراً، نعم لأنني أحبك.</p>
+        
+        <p>مررنا بفترة ماضية صعبة قليلاً ولكن هذه هي الحياة.<br>
+        الأهم مما واجهنا هو أننا تخطيناه بثمرة حبنا وعشقنا، ابننا حمودي.</p>
+        
+        <p>لا تدرين يا حبيبتي كيف كنت وحيداً أعتصر عندما كنتِ تتألمين حين وقت الولادة.<br>
+        آه آه لا أعاده الله علينا إلا بالخير يارب.</p>
+        
+        <p>بداخلي حب عظيم لك حتى حين نتشاجر قليلاً، حينها بداخلي صغير يتحدث إلي ويهمس بهمساته حتى أسكت.<br>
+        نفسي أفعل كل شيء تريدينه في هذه الدنيا.<br>
+        نفسي أسعدك وأجعلك ضاحكة دائماً ولا تقلقي من شيء، بإذن الله ربي يوفقنا لما هو خير ويتيسر حالنا أكثر وأفعل ما تريدينني أن أفعله.</p>
+        
+        <p><span class="highlight">عظيمة أنتِ يا زوجتي</span></p>
+        
+        <p>لا أدري كيف سأكون أنا بدونك<br>
+        آه يا حبي، أحبك حتى وإنني لم أجد شيئاً أقوله.<br>
+        فقط أحبك.</p>
+        
+        <div class="signature">زوجك المحب</div>
+      </div>
+    </div>
+    
+    <script>
+      // Add floating hearts
+      function createFloatingHearts() {
+        const container = document.querySelector('.floating-hearts');
+        const heartSymbols = ['❤️', '💕', '💖', '💗', '💓'];
+        
+        for (let i = 0; i < 12; i++) {
+          const heart = document.createElement('div');
+          heart.className = 'floating-heart';
+          heart.textContent = heartSymbols[Math.floor(Math.random() * heartSymbols.length)];
+          
+          // Random position
+          heart.style.left = Math.random() * 100 + 'vw';
+          heart.style.top = Math.random() * 100 + 'vh';
+          
+          // Random size
+          const size = Math.random() * 1.5 + 0.5;
+          heart.style.fontSize = size + 'rem';
+          
+          // Random animation duration
+          const duration = Math.random() * 30 + 15;
+          heart.style.animationDuration = duration + 's';
+          
+          // Random animation delay
+          heart.style.animationDelay = Math.random() * 15 + 's';
+          
+          container.appendChild(heart);
+        }
+      }
+      
+      // Run when page loads
+      window.addEventListener('load', createFloatingHearts);
+    </script>
+  </body>
+  </html>
